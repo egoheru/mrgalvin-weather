@@ -5,6 +5,8 @@ import Form from './components/form';
 import { render } from '@testing-library/react';
 import React from 'react'
 import Forecast from './components/forecast';
+import Appmaps from './components/appmaps';
+// import GoogleApiWrapper from './components/googlemaps';
 const api_key = "a634a07eec339ac9699dc64129cad6db"
 
 class App extends React.Component {
@@ -46,6 +48,7 @@ getWeather = async (e) => {
 
   render() {
     return (
+      <>
       <div className = "container">
       <Heading/>
       <div className="form">
@@ -62,6 +65,9 @@ getWeather = async (e) => {
       error={this.state.error}/>
       </div>
     </div>
+    <Appmaps/>
+    {/* <GoogleApiWrapper/> */}
+    </>
     )
   }
 }

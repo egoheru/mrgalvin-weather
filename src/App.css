@@ -1,5 +1,21 @@
 html {
   box-sizing: border-box;
+  
+}
+body{
+  background-color: rgb(10, 110, 240);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMWgcV7mMoDafzp7bLiGI57MO1SmAAy7R8nQ&usqp=CAU");
+  /* background-repeat: no-repeat; */
+  background-size: 100% 150%;
+  border: 5px solid rgb(111, 225, 123);
+}
+
+.heading {
+  background-color: #5d697a;
+  margin: 8px;
+  padding: 8px;
+  color: rgb(221, 195, 195);
+  border-radius: 20px;
 }
 
 *, * :before, * :after {
@@ -7,16 +23,15 @@ html {
 }
 
 .container {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSkQrrIW0x_p9b20Mp0mus-PGO2NqyR49xA&usqp=CAU");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSkQrrIW0x_p9b20Mp0mus-PGO2NqyR49xA&usqp=CAU"); */
+  background-color: grey;
   width: 50%;
-  border: 3px solid #4286f4;
-  box-shadow: 2px 2px #638cce;
+  border: 3px dotted #4286f4;
   text-align: center;
   margin: 20px auto;
 }
 
 .form {
-  margin: 5px;
   padding: 5px;
 }
 
@@ -24,9 +39,42 @@ html {
   margin: 5px;
   text-align: center;
   border-radius: 5px;
+  height: 30px;
+}
+
+button {
+  color:#fff;
+  background-color: red;
+  margin: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color:green;
 }
 
 .weather {
-  border: 3px solid #54575b;
-  background-color: #5d697a;
+  border: 20px solid #900202;
+  background-color: rgb(10, 110, 240);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhIc0i3dmCMyng7-QcW3ZOhxQvv-ABfzkajQ&usqp=CAU");
+  background-size: 100% ;
+  margin: 4px;
+  color:rgb(214, 211, 0);
+}
+
+.statis {
+  background: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.map-contain {
+  /* margin: 10px; */
+  padding: 30px 30px 30px 30px;
+
+}
+
+.map-border {
+  background-color: rgb(23, 228, 217);
 }
